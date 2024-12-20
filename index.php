@@ -240,8 +240,7 @@
 
       <hr class="hr" />
       <h3 class="fs-2 text-body-emphasis" id="news-hed">Останні новини</h3>
-
-      <div
+      <!-- <div
         id="newsSlider"
         class="carousel slide"
         data-bs-ride="carousel"
@@ -250,7 +249,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./assets/image/image.png"
+              src="<?php echo get_template_directory_uri(); ?>/image/image.png"
               class="d-active w-100"
               alt="Новина 1"
             />
@@ -262,15 +261,15 @@
               </p>
             </div>
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item">
             <img
-              src="./assets/image/exmp.jpg"
+              src=""
               class="d-active w-100"
-              alt="Новина 1"
+              alt="Новина 2"
             />
             <div class="carousel-caption d-block">
-              <a href="./news2.html" class="news-1"><h5></h5></a>
-              <p class="text-news"></p>
+              <a href="./news2.html" class="news-1"><h5>Новина 2</h5></a>
+              <p class="text-news">Опис другої новини.</p>
             </div>
           </div>
         </div>
@@ -293,7 +292,35 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div> -->
+
+      <div id="newsSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?php echo get_template_directory_uri(); ?>/image/image.png" class="d-block w-100" alt="Новина 1" />
+      <div class="carousel-caption d-block">
+        <a href="/?page_id=72" class="news-1"><h5>Новина 1</h5></a>
+        <p class="text-news">У ХДУ обговорили відпрацювання дорожньої карти створення Асоціації релокованих університетів.</p>
       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="" class="d-block w-100" alt="Новина 2" />
+      <div class="carousel-caption d-block">
+        <a href="" class="news-1"><h5>Новина 2</h5></a>
+        <p class="text-news">Друга новина.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#newsSlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Попередня</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#newsSlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Наступна</span>
+  </button>
+</div>
       <div class="ratio ratio-21x9 map">
         <iframe
           class="map"
@@ -308,4 +335,8 @@
       </div>
     </div>
 </main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
 <?php get_footer(); ?>

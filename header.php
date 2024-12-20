@@ -11,6 +11,7 @@
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/desing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <?php wp_head(); ?>
 </head>
