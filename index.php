@@ -111,7 +111,7 @@
     <?php
     
     $news_query = new WP_Query([
-        'post_type' => 'post',
+        'post_type' => 'news',
         'posts_per_page' => 10, 
     ]);
 
