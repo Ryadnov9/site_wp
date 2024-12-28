@@ -7,202 +7,64 @@
         <p class="subtext"><?php the_field('subtitle2'); ?></p>
       </div>
     </div>
-    <div class="container px-4 py-5 container-main" id="featured-3">
+    <div class="container px-4 py-5 container-main" id="featured">
       <h2 class="pb-2 border-bottom"></h2>
-      <p class="intro" id="intro"><?php the_field('intro'); ?></p>
-      <div
-        class="row g-4 py-5 row-cols1-1 row-cols-lg-4 align-items-stretch"
-        id="main"
-      >
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/1.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis text-center" id="name">
-            Співаковський Олександр Володимирович
-          </h3>
-          <p class="text-center"><?php the_field('Spivakovsky'); ?></p>
-          <a
-            href="https://www.kspu.edu/About/UniversityAdministration/ABC.aspx?lang=uk"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/2.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Курило Віталій Семенович
-          </h3>
-          <p><?php the_field('Kurilo'); ?></p>
-          <a
-            href="https://luguniv.edu.ua/?page_id=3144&lang=en"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/3.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Караман ОленаЛеонідівна
-          </h3>
-          <p><?php the_field('Karaman'); ?></p>
-          <a
-            href="https://luguniv.edu.ua/?page_id=3144&lang=en"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/4.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Омельченко Світлана Олександрівна
-          </h3>
-          <p><?php the_field('Omelchenko'); ?></p>
-          <a
-            href="https://ddpu.edu.ua/index.php/home/rektorat/414-2013-04-12-11-35-39"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/5.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Цимбал Ірина Іванівна
-          </h3>
-          <p><?php the_field('Cymbal'); ?></p>
-          <a
-            href="https://loippo.edu.ua/blog-top/kerivnytstvo"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/6.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Фалько Наталя Миколаївна
-          </h3>
-          <p><?php the_field('Falco'); ?></p>
-          <a
-            href="https://inst.mdpu.org.ua/navchalno-naukovyj-instytut-sotsialno-pedagogichnoyi-ta-mystetskoyi-osvity/kafedra-psihologiyi/sklad-kafedry-psyhologiyi/falko-natalya-mykolayivna/"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
-        <div class="feature col" id="feature">
-          <div
-            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-          >
-            <svg
-              class="bi"
-              width="8em"
-              height="8em"
-              viewBox="0 0 300 300"
-              preserveAspectRatio="xMidYMid slice"
-            >
-              <image
-                href="<?php echo get_template_directory_uri(); ?>//image/7.jpg"
-                x="0"
-                y="0"
-                width="300"
-                height="300"
-                preserveAspectRatio="none"
-              />
-              <use xlink:href="#collection" />
-            </svg>
-          </div>
-          <h3 class="fs-2 text-body-emphasis" id="name">
-            Богданов Ігор Тимофійович
-          </h3>
-          <p><?php the_field('Bogdanov'); ?></p>
-          <a
-            href="https://bdpu.org.ua/management-university/bogdanov/"
-            class="icon-link"
-          >
-            Детальніше
-          </a>
-        </div>
+      <p class="intro" id="intro" style="text-align: center;"><?php the_field('intro'); ?></p>
+
+      <div class="row g-4 py-5 row-cols1-1 row-cols-lg-4 align-items-stretch" id="main">
+
+      <?php
+      $team_query = new WP_Query(array(
+        'post_type' => 'team-members',
+        'posts_per_page' => -1,
+        'orderby' => 'date', 
+        'order' => 'ASC', 
+    ));
+    
+      
+      if ($team_query->have_posts()) :
+          while ($team_query->have_posts()) : $team_query->the_post();
+              $photo = get_field('photo'); 
+              $description = get_field('description'); 
+              $custom_link = get_field('custom_link'); 
+      ?>
+              <div class="feature col" id="feature">
+                  <div
+                      class="feature-icon d-inline-flex align-items-center justify-content-center  fs-2 mb-3"
+                  >
+                      <svg class="bi" width="8em" height="8em" viewBox="0 0 300 300">
+                          <image
+                              href="<?php echo esc_url($photo); ?>"
+                              x="0"
+                              y="0"
+                              width="300"
+                              height="300"
+                          />
+                          <use xlink:href="#collection" />
+                      </svg>
+                  </div>
+                  <h3 class="fs-2 text-body-emphasis text-center" id="name">
+                    <?php 
+                    $title_words = explode(' ', get_the_title()); 
+                   foreach ($title_words as $word) {
+                   echo $word . '<br>'; 
+                    }
+                   ?>
+                   </h3>
+                  <p class="text-center"><?php echo esc_html($description); ?></p>
+                  <div class="feature-footer">
+    <a href="<?php echo $custom_link ? esc_url($custom_link) : '#'; ?>" class="icon-link">
+        Детальніше
+    </a>
+</div>
+              </div>
+      <?php
+          endwhile;
+          wp_reset_postdata();
+      else :
+          echo '<p>Команда поки відсутня.</p>';
+      endif;
+      ?>
       </div>
 
       <hr class="hr" />
@@ -247,30 +109,33 @@
       <div id="newsSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
   <div class="carousel-inner">
     <?php
-    // Отримуємо всі новини (пости)
+    
     $news_query = new WP_Query([
-        'post_type' => 'post', // Тип записів (новини)
-        'posts_per_page' => 5, // Кількість новин
+        'post_type' => 'post',
+        'posts_per_page' => 10, 
     ]);
 
     if ($news_query->have_posts()) :
-        $active_class = 'active'; // Для першого слайда додаємо клас active
+        $active_class = 'active'; 
         while ($news_query->have_posts()) : $news_query->the_post();
-            // Отримуємо додаткові поля через ACF
-            $news_image = get_field('news_image'); // Поле для зображення
-            $news_description = get_field('news_description'); // Поле для опису
+            
+            $news_image = get_field('news_image'); 
+            $news_description = get_field('news_description');
+            $link = get_field('link'); 
+            
+            $post_link = $link ? $link : get_permalink(); 
     ?>
             <div class="carousel-item <?php echo $active_class; ?>">
                 <img src="<?php echo esc_url($news_image); ?>" class="d-block w-100" alt="<?php the_title(); ?>" />
                 <div class="carousel-caption d-block">
-                    <a href="<?php the_permalink(); ?>" class="news-1">
+                    <a href="<?php echo esc_url($post_link); ?>" class="news-1">
                         <h5><?php the_title(); ?></h5>
                     </a>
                     <p class="text-news"><?php echo esc_html($news_description); ?></p>
                 </div>
             </div>
     <?php
-            $active_class = ''; // Скидаємо active для наступних слайдів
+            $active_class = ''; 
         endwhile;
         wp_reset_postdata();
     else :
@@ -288,6 +153,7 @@
     <span class="visually-hidden">Наступна</span>
   </button>
 </div>
+
 
 
 

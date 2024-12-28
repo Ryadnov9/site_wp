@@ -271,6 +271,7 @@ footer {
 .text-news {
   color: white;
 }
+
 @media only screen and (max-width: 600px) {
   #featured-3 {
     margin-top: 20pt;
