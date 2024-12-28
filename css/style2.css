@@ -1,24 +1,24 @@
 .main-header {
-  font-size: 1.9rem; /* Размер шрифта для заголовка */
-  font-weight: bold; /* Жирный шрифт */
-  text-transform: uppercase; /* Преобразование текста в верхний регистр */
-  color: #00008b; /* Темный цвет текста */
-  text-align: center; /* Центрирование текста */
-  margin-bottom: 1rem; /* Отступ снизу */
-  letter-spacing: 0.1em; /* Интервал между буквами */
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00008b;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
 }
 
 .subtext {
-  font-size: 1.2rem; /* Размер шрифта для подзаголовков */
-  color: #34495e; /* Серый цвет текста */
-  text-align: center; /* Центрирование текста */
-  margin: 0.5rem 0; /* Отступ сверху и снизу */
-  line-height: 1.6; /* Высота строки для лучшей читаемости */
+  font-size: 1.2rem;
+  color: #34495e;
+  text-align: center;
+  margin: 0.5rem 0;
+  line-height: 1.6;
 }
 
 .subtext:first-of-type {
-  font-style: italic; /* Курсив для первого подзаголовка */
-  color: #34495e; /* Немного более темный цвет */
+  font-style: italic;
+  color: #34495e;
 }
 .feature {
   position: relative;
@@ -29,9 +29,9 @@
 }
 
 .feature a.icon-link {
-  margin-top: auto; /* Отправляет ссылку в конец блока */
-  position: absolute; /* Позиционирует относительно контейнера .feature */
-  bottom: 10px; /* Отступ от нижнего края контейнера */
+  margin-top: auto;
+  position: absolute;
+  bottom: 10px;
   left: 50%;
-  transform: translateX(-50%); /* Центрирует ссылку по горизонтали */
+  transform: translateX(-50%);
 }
