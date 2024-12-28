@@ -101,6 +101,43 @@ p {
   height: 300px;
   width: 300px;
 }
+.main-header {
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00008b;
+  text-align: center;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  color: #34495e;
+  text-align: center;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.subtext:first-of-type {
+  font-style: italic;
+  color: #34495e;
+}
+.feature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feature a.icon-link {
+  margin-top: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 @media (max-width: 480px) {
   .feature {
