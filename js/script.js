@@ -2,7 +2,7 @@
 function filterContent() {
   const searchQuery = document.getElementById("search").value.toLowerCase();
   const contentElements = document.querySelectorAll(
-    ".feature, .text, .header-md, .subtext, .intro, .main-header,.fs-2, .map, .footer, .hr,.txt, .header-2, .photo, .news-container,.carousel"
+    ".feature, .text, .header-md, .subtext, .intro, .main-header,.fs-2, .map, .footer, .hr,.txt, .header-2, .photo, .news-container,.carousel,"
   );
 
   contentElements.forEach((element) => {
@@ -64,4 +64,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-

@@ -41,7 +41,7 @@ get_header();
                  
                   <p class="text-center"><?php echo esc_html($description); ?></p>
                   <a
-                      href="<?php echo $custom_link ? esc_url($custom_link) : '#'; ?>"
+                      href="<?php echo $custom_link ? esc_url($custom_link) : ''; ?>"
                       class="icon-link"
                   >
                       Детальніше
